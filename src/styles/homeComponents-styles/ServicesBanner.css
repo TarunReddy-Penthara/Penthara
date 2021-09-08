@@ -1,0 +1,8 @@
+.ServicesBanner-wrapper{
+    width: 100%;
+    background-color: #12B5B0;
+    height: 400px;
+}
+.ServicesBanner-wrapper h3{
+    color: #fff;
+}

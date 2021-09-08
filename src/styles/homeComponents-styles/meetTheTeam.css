@@ -1,0 +1,13 @@
+.meetTheTeam{
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: repeating-radial-gradient(circle at center center,rgba(18,183,179,0.08),rgba(18,183,179,0.08) 1px,transparent 1px,transparent 100%) !important;
+    background-size: 3px 3px !important;
+    background-position: 50% 50% !important;
+    background-attachment: scroll !important;
+    background-repeat: repeat !important;
+}
+.meetTheTeam h3{
+    display: inline-block;
+}
