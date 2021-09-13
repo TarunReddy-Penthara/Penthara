@@ -16,6 +16,7 @@ export default function services({data}) {
                   {item.frontmatter.title}
               </h3>
               <p>{item.frontmatter.description}</p>
+              <div>{item.frontmatter.body}</div>
               <div>
               {item.frontmatter.code.code}
               </div>
@@ -25,6 +26,9 @@ export default function services({data}) {
             ) : (<div></div>)
           ))
         }
+        {data.allMarkdownRemark.nodes.map((item, i) => (
+          <p>{item.internal.content}</p>
+        ))}
           
             </div>
             </div>
@@ -44,6 +48,9 @@ export const query = graphql`
             code
             lang
           }
+        }
+        internal {
+          content
         }
       }
     }
