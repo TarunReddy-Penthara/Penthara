@@ -17,6 +17,7 @@ collections:
       - {label: "URL", name: "url", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Code", name: "code", widget: "code"}
 
   - name: "Clients"
     label: "clients" 
