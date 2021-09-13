@@ -6,4 +6,4 @@ code:
   lang: html
   code: <div>Hello</div>
 ---
-This is the body
+<h2>This is the body<h2>
