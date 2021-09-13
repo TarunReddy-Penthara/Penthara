@@ -32,7 +32,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "URL", name: "url", widget: "string"}
       - {label: "client-logo", name: "client-logo", widget: "image"}
-      - label: "Align Content"
-          name: "align"
-          widget: "select"
-          options: ["client", "service"]
+      - label: "Type"
+        name: "type"
+        widget: "select"
+        options: ["client", "service"]

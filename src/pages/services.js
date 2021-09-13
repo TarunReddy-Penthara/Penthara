@@ -17,10 +17,6 @@ export default function services({data}) {
               </h3>
               <p>{item.frontmatter.description}</p>
               <div>{item.frontmatter.body}</div>
-              <div>
-              {item.frontmatter.code.code}
-              </div>
-              
               </a>
             
             ) : (<div></div>)
