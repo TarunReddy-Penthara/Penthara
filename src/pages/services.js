@@ -33,7 +33,7 @@ export default function services({data}) {
 }
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(filter: {frontmatter: {type: {eq: "service"}}}) {
       nodes {
         html
         frontmatter {
@@ -42,7 +42,6 @@ export const query = graphql`
           url
           code {
             code
-            lang
           }
         }
         internal {
