@@ -18,6 +18,10 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Code", name: "code", widget: "code"}
+      - label: "Align Content"
+          name: "align"
+          widget: "select"
+          options: ["client", "service"]
 
   - name: "Clients"
     label: "clients" 
@@ -28,3 +32,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "URL", name: "url", widget: "string"}
       - {label: "client-logo", name: "client-logo", widget: "image"}
+      - label: "Align Content"
+          name: "align"
+          widget: "select"
+          options: ["client", "service"]
