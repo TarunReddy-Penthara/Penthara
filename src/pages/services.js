@@ -11,12 +11,16 @@ export default function services({data}) {
             {
           data.allMarkdownRemark.nodes.map((item, i) => (
             item.frontmatter.title ? (
-              <div>
-              <h3 class="product" key={i}>
+              <a href={item.frontmatter.url}>
+              <h3 key={i}>
                   {item.frontmatter.title}
               </h3>
-              {item.html}
+              <p>{item.frontmatter.description}</p>
+              <div>
+              {item.frontmatter.code.code}
               </div>
+              
+              </a>
             
             ) : (<div></div>)
           ))
@@ -36,10 +40,13 @@ export const query = graphql`
           description
           title
           url
+          code {
+            code
+            lang
+          }
         }
       }
     }
-    
   }
 `
 
