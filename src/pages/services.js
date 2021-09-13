@@ -9,25 +9,16 @@ export default function services({data}) {
             <div>Services</div>
             <div >
              
-              {
-          data.allMarkdownRemark.nodes.map((item, i) => (
-            item.frontmatter.title ? (
-              <div>
-              <h3 class="product" key={i}>
-                  {item.frontmatter.title}
-              </h3>
-              {item.html}
-              </div>
-            
-            ) : (<div></div>)
-          ))
-        }
+              hel
           
             </div>
             </div>
         </Layout>
     )
 }
+
+
+/*
 export const query = graphql`
   query {
     allMarkdownRemark {
@@ -44,7 +35,23 @@ export const query = graphql`
   }
 `
 
-/*
+
+{
+          data.allMarkdownRemark.nodes.map((item, i) => (
+            item.frontmatter.title ? (
+              <div>
+              <h3 class="product" key={i}>
+                  {item.frontmatter.title}
+              </h3>
+              {item.html}
+              </div>
+            
+            ) : (<div></div>)
+          ))
+        }
+
+
+
 
 allMarkdownRemark {
       nodes {
