@@ -4,6 +4,6 @@ url: /services
 description: This is the description
 code:
   lang: html
-  code: <div>Hello</div>
+  code: <div>This is the code</div>
 ---
-This is the body
+<h2>This is the body</h2>
