@@ -12,8 +12,4 @@ code:
     results.</p>
 type: service
 ---
-<!--StartFragment-->
-
 We help improve your security and compliance posture by implementing balanced policies and configurations across your IT infrastructure. Our assessment services can quickly identify gaps and provide immediate results.
-
-<!--EndFragment-->
