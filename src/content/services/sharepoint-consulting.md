@@ -10,8 +10,4 @@ code:
     portals.</p>
 type: service
 ---
-<!--StartFragment-->
-
 We provide A to Z services related to SharePoint platform included but not limited to governance, migration, custom development and intranet portals.
-
-<!--EndFragment-->
